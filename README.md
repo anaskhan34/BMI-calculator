@@ -9,7 +9,7 @@ It takes **weight (in kg)** and **height (in cm)** as input and calculates your 
 ---
 
 ## 🚀 Features
-- ✅ Responsive design using **Bootstrap 5**
+- ✅ Responsive design 
 - ✅ Simple and clean UI
 - ✅ Calculates BMI with one click
 - ✅ Displays BMI category with **color indication**
