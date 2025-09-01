@@ -66,4 +66,72 @@
 
     <script src="bmi.js"></script>
 </body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="./photo/download.png" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <div class="container main-container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                    <h1>CALCULATE YOUR BODY MASS INDEX for</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <main class="section-main">
+            <div class="container bmi-container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>BMI CALCULATOR</h2>
+                        <br>
+                        <div class="big-section">
+                            <form action="">
+                                <label for="weight"><em>Enter in <abbr title="kilogram"> kg</abbr></em></label>
+                                <input id="weight" type="number" placeholder="enter your weight (in Kg) " required>
+                                <br>
+                                <label for="height"><em>Enter in <abbr title="meter"> m</abbr></em></label>
+                                <input id="height" type="number" placeholder="enter your height (in m) "  required>
+
+                            </form>
+                            <br>
+
+                            <button id="calculate" type="button" onclick="bmiHandler()">calculate</button>
+                            <br>
+
+                            <p id="resultShow">your BMI is:</p>
+                        
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <br>
+    
+<header>
+        <div class="container main-container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                    <p>made with &hearts; by M.Anas Khan </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="bmi.js"></script>
+</body>
 </html>
