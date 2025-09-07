@@ -4,7 +4,7 @@
 # BMI Calculator
 
 A simple **BMI (Body Mass Index) Calculator** built using **HTML, CSS, and JavaScript**.  
-It takes **weight (in kg)** and **height (in cm)** as input and calculates your BMI with a category (Underweight, Normal, Overweight, Obese).
+It takes **weight (in kg)** and **height (in m)** as input and calculates your BMI with a category (Underweight, Normal, Overweight, Obese).
 
 ---
 
@@ -36,7 +36,7 @@ It takes **weight (in kg)** and **height (in cm)** as input and calculates your 
 \]
 
 Example:  
-If weight = 70 kg and height = 170 cm, then:
+If weight = 70 kg and height = 1.7 m, then:
 \[
 \text{BMI} = \frac{70}{(1.70)^2} = 24.22
 \]
@@ -55,7 +55,7 @@ If weight = 70 kg and height = 170 cm, then:
 
 ## ▶️ How to Use
 1. Enter your **weight (in kg)**
-2. Enter your **height (in cm)**
+2. Enter your **height (in m)**
 3. Click **Calculate**
 4. See your BMI and health category
 
