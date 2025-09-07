@@ -26,7 +26,7 @@ It takes **weight (in kg)** and **height (in cm)** as input and calculates your 
 ## 🛠 Technologies Used
 - **HTML5**
 - **CSS3**
-- **JavaScript (Vanilla JS)**
+- **JavaScript**
 
 ---
 
